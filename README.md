@@ -21,7 +21,7 @@ Put simply: a program becomes an application when it’s used not only by engine
 
 To see how the way people interact with computers has changed, I’ll break the story into stages. Quick disclaimer: I’m not a historian of software or hardware, so the split is **simplified**. The years in this chapter are a guideline, not a strict mapping to specific events.
 
-### Stage 1 — “the reign of programs”「1946 - 1965」
+<br>### Stage 1 — “the reign of programs”「1946 - 1965」
 
 In 1946, **ENIAC**—one of the first programmable computers—was demonstrated. It’s a convenient starting point for an era where the main “control organ” was the program itself (more precisely, sets of instructions for a computer).
 
@@ -43,7 +43,7 @@ Finally, high‑level languages. **Fortran** and **BASIC** made programming much
 
 **Summary:** the “reign of programs” era is characterized by an almost complete lack of UI, running “one program at a time,” and the beginning of programs being shared between people.
 
-### Stage 2 — the transition to applications「1960 - 1985」
+<br>### Stage 2 — the transition to applications「1960 - 1985」
 
 In the second stage, there are **many** programs, and alongside them **applications** begin to take shape. With BASIC, more and more people enter development: some write tools for themselves, others do it for fun. And when there are many programs, the question becomes inevitable: how do you make them usable for someone other than the author?
 
