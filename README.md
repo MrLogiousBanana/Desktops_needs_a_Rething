@@ -166,7 +166,7 @@ And everything seems fine: you work on a big screen and chat on your phone. But 
 
 The problem isn’t that “we couldn’t do better before,” but that the industry didn’t have time to rebuild the desktop OS model around new habits. Now, as more software lives in the background and competes for attention, rebuilding these rules becomes not a whim, but a practical necessity.<br><br>
 
-### The notification system
+### 🔔 The notification system
 
 Take notifications. Windows (and most Linux environments) has a system notification center where apps can send messages.
 
@@ -183,7 +183,7 @@ But messengers and “mobile‑spirited” apps live at a different pace. They n
 
 What do developers do? They build their own. Telegram shows its own popups over the system ones. Discord has its own. Slack has its own. As a result, three different windows can appear in the same corner of the screen—each with different behavior, styling, and closing logic. No beauty, no consistency.<br><br>
 
-### The tray problem
+### 📦 The tray problem
 
 Next: the system tray (the area near the clock). The tray idea is good: give background apps a small icon so they stay “at hand” without getting in the way. But many Windows users, looking at their tray, will see a huge number of icons hidden behind an arrow.
 
@@ -199,7 +199,7 @@ A positive tray example is **Telegram** on Windows. By default it opens a full w
 
 A bad example is when an app—while minimized—still sits both on the taskbar and in the tray. Why? Because there is no clear OS‑level rule like “a background app doesn’t need taskbar space.” Developers decide every time—and decide differently.<br><br>
 
-### Blurred boundaries between “application” and “service”
+### ⚙️ Blurred boundaries between “application” and “service”
 
 Desktop OSes poorly distinguish between:
 
@@ -220,7 +220,7 @@ Based on the problems above, I’ll introduce a classification that helps us und
 
 Outside the scope are apps for wearables (watches/glasses). Here we consider software for smartphones, tablets, and PCs.<br><br>
 
-### System services
+### 🔸System services
 
 This is the system layer: components and background processes that keep the OS, hardware, and other applications running.
 
@@ -243,7 +243,7 @@ Key criteria:
 
 In short, it’s infrastructure. Not desktop, not mobile—foundational.<br><br>
 
-### Primary applications
+### 🔸Primary applications
 
 These are applications whose core function almost always requires an **open window**.
 
@@ -260,7 +260,7 @@ Key criteria:
 
 The point is simple: these are heavy tools and they should not turn into background parasites.<br><br>
 
-### Auxiliary applications
+### 🔸Auxiliary applications
 
 These are the ones that **naturally live in the background**: VPN, email, messengers, torrent clients, music, etc.
 
@@ -273,7 +273,7 @@ Key criteria:
 - **notifications:** allowed; advanced scenarios may exist;
 - **autostart/services:** allowed, but only with explicit user consent and transparent control.<br><br>
 
-### Secondary applications
+### 🔸Secondary applications
 
 This is a “middle” class: interactive, episodic apps that you open “when needed” and close without wanting them to remain in the background.
 
