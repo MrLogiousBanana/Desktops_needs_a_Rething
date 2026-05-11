@@ -151,7 +151,7 @@ OSes themselves move in this direction:
 
 **Summary:** the difference between “desktop vs mobile” becomes increasingly conditional. Users think less about installation and more about access/subscription/sync. We moved from “programs on disks” to “apps as services.”<br><br>
 
-### 🧾Chapter 1 recap
+<img src="assets/recap.png" height="25" alt="Recap"/>
 
 We traveled from “programs as a set of commands” to applications as products and services—with UIs, habits, and an expectation of constant availability across devices. This shift made software mass‑market and convenient, but it also mixed different “cultures” of use (desktop and mobile) in one world. Next, it’s important to see how this collision shows up on the desktop today—and why familiar desktop‑environment mechanisms no longer cope.<br><br><br><br>
 
@@ -210,7 +210,7 @@ Look at game launchers: Steam, Epic Games, GOG Galaxy. They start with the syste
 
 The flip side is that some heavy desktop apps (for example, Adobe Creative Cloud) behave like mobile: constantly updating, living in the tray, pushing marketing notifications. This isn’t about technology—it’s about philosophy and the lack of clear system boundaries.<br><br>
 
-### 🧾Chapter 2 recap
+<img src="assets/recap.png" height="25" alt="Recap"/>
 
 The conflict shows up as a set of symptoms: inconsistent rules for background life, fragmented UX solutions, and unclear boundaries of what counts as an “app” versus a “background agent.” As long as the system doesn’t distinguish behavior types, each product will improvise. So the next step is to give ourselves a language and a model: what classes of software exist, and what rights/expectations should each have?<br><br><br><br>
 
@@ -288,7 +288,7 @@ Key criteria:
 
 Important principle: if the user **explicitly closes** a secondary application, it should not linger in the background as a “tail.”<br><br>
 
-### 🧾Chapter 3 recap
+<img src="assets/recap.png" height="25" alt="Recap"/>
 
 The classification turns the vague “apps behave weirdly” into concrete classes with different lifecycles: what must live only as a window, what may stay in the background, and what should be a service without UI at all. This sets the rules of the game and lets us discuss constraints without taste wars. Next comes the main question: how do we make these rules work not by “agreement,” but technically—at the OS level and through its APIs?<br><br><br><br>
 
@@ -386,7 +386,7 @@ The OS should provide several access tiers:
 
 The OS also needs a proper **Do Not Disturb** mode and **notification sounds**: apps should not play their own sound—an app sends an event, and the OS plays the sound chosen by the user (the app may provide a default).<br><br>
 
-### 🧾Chapter 4 recap
+<img src="assets/recap.png" height="25" alt="Recap"/>
 
 We now have the “skeleton” of a solution: app classes become not an abstraction, but the basis for rights and constraints (tray, notifications, autostart, background) via unified system APIs. This returns control to users and predictability to developers: fewer hacks, more proper system scenarios. Next, we can talk about the “layers on top”: what new UX mechanisms become possible once the platform has this kind of framework.<br><br><br><br>
 
@@ -442,7 +442,7 @@ Imagine a typical workday. You turn on “Work” mode and the OS reshapes app b
 
 The point isn’t that “features appeared.” The point is that the OS finally manages this centrally—and the user controls the background, not the other way around.<br><br>
 
-### 🧾Chapter 5 recap
+<img src="assets/recap.png" height="25" alt="Recap"/>
 
 When the system has a framework and control, “tasty” add‑ons become possible—not as app‑specific hacks, but as a unified platform: notification categories, tray widgets/info panels, and work modes. These ideas don’t replace the foundation—they unlock its potential. UX stops being a collection of compromises and becomes a manageable environment. Next we just need to lock in the overall conclusion and state what exactly matters to change in our approach to DE/OS.<br><br><br><br>
 
