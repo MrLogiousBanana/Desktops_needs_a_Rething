@@ -3,11 +3,11 @@
 
 <p align="center"><img src="assets/introduction.png" width="100%" alt="Introduction" /> </p>
 
-<div style="margin: 0 0 0 25;">Modern desktop environments in “adult” operating systems (Windows, Linux, macOS) are complex applications that often trace their roots back to systems designed at the dawn of OS development. Explorer, GNOME, KDE, and macOS all originate from an era when the computer user experience was radically different from what it is today.  
+Modern desktop environments in “adult” operating systems (Windows, Linux, macOS) are complex applications that often trace their roots back to systems designed at the dawn of OS development. Explorer, GNOME, KDE, and macOS all originate from an era when the computer user experience was radically different from what it is today.  
 
 This essay looks at the problems of modern desktop environments from a usability perspective and proposes a way to address them, placing the responsibility on desktop-environment makers—because today they are, in many ways, the ones implementing and shaping this kind of functionality.  
 
-In this text we’ll walk through the evolution from programs to applications, unpack the issues created by the rapid rise of mobile software, introduce a new classification of software by usage type, and use it to propose a solution to the problems described above. We’ll also explore how desktop environments could evolve on top of this foundation—so the slogan “a desktop environment for people, not people for the desktop environment” can become real.</div><br><br><br><br>
+In this text we’ll walk through the evolution from programs to applications, unpack the issues created by the rapid rise of mobile software, introduce a new classification of software by usage type, and use it to propose a solution to the problems described above. We’ll also explore how desktop environments could evolve on top of this foundation—so the slogan “a desktop environment for people, not people for the desktop environment” can become real.<br><br><br><br>
 
 
 <div style="text-align: center;">Центрированный текст</div>
@@ -15,6 +15,7 @@ In this text we’ll walk through the evolution from programs to applications, u
 <div style="margin-left: 20px;">Текст с отступом слева</div>
 
 <span style="color: red;">Красный текст</span>
+
 
 <p align="center"><img src="assets/Chapter 1.png" width="100%" alt="На русском" /> </p>
 
