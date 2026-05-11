@@ -183,6 +183,9 @@ But messengers and “mobile‑spirited” apps live at a different pace. They n
 
 What do developers do? They build their own. Telegram shows its own popups over the system ones. Discord has its own. Slack has its own. As a result, three different windows can appear in the same corner of the screen—each with different behavior, styling, and closing logic. No beauty, no consistency.<br><br>
 
+<p align="center"><img src="assets/telegram.png" width="30%" alt="Custom Telegram notifications"/></p>
+<br>
+
 ### 📦 The tray problem
 
 Next: the system tray (the area near the clock). The tray idea is good: give background apps a small icon so they stay “at hand” without getting in the way. But many Windows users, looking at their tray, will see a huge number of icons hidden behind an arrow.
@@ -198,6 +201,9 @@ The tray becomes not a “quick actions panel,” but an indicator of “how muc
 A positive tray example is **Telegram** on Windows. By default it opens a full window on the taskbar. But a typical messenger workflow is “launch and forget,” while notifications arrive in the background. Telegram can live in the tray properly: it minimizes, keeps working, and the icon becomes the main entry point.
 
 A bad example is when an app—while minimized—still sits both on the taskbar and in the tray. Why? Because there is no clear OS‑level rule like “a background app doesn’t need taskbar space.” Developers decide every time—and decide differently.<br><br>
+
+<p align="center"><img src="assets/tray.png" width="30%" alt="Reimagined Tray"/></p>
+<br>
 
 ### ⚙️ Blurred boundaries between “application” and “service”
 
@@ -366,6 +372,9 @@ This is, in essence, the answer to the argument that made GNOME try to “bury�
 As in Windows today, right‑clicking an icon should provide a quick‑actions menu so the user can change app state without opening a window.
 
 The taskbar, meanwhile, is the territory of primary and secondary apps. Secondary apps can get richer actions via the context menu (as Windows Explorer does).<br><br>
+
+<p align="center"><img src="assets/tray reimagined.png" width="30%" alt="Reimagined Tray"/></p>
+<br>
 
 ### Fixing the notification system
 
