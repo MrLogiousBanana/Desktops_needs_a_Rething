@@ -163,7 +163,7 @@ Since the 1980s, the world of software has changed dramatically. You can clearly
 
 And everything seems fine: you work on a big screen and chat on your phone. But on the desktop, these two worlds are forced to live under the same OS rules—rules that were historically written for the “classic” desktop class of applications.
 
-The problem isn’t that “we couldn’t do better before,” but that the industry didn’t have time to rebuild the desktop OS model around new habits. Now, as more software lives in the background and competes for attention, rebuilding these rules becomes not a whim, but a practical necessity.
+The problem isn’t that “we couldn’t do better before,” but that the industry didn’t have time to rebuild the desktop OS model around new habits. Now, as more software lives in the background and competes for attention, rebuilding these rules becomes not a whim, but a practical necessity.<br><br>
 
 ### The notification system
 
@@ -180,7 +180,7 @@ But messengers and “mobile‑spirited” apps live at a different pace. They n
 - unread badges,
 - etc.
 
-What do developers do? They build their own. Telegram shows its own popups over the system ones. Discord has its own. Slack has its own. As a result, three different windows can appear in the same corner of the screen—each with different behavior, styling, and closing logic. No beauty, no consistency.
+What do developers do? They build their own. Telegram shows its own popups over the system ones. Discord has its own. Slack has its own. As a result, three different windows can appear in the same corner of the screen—each with different behavior, styling, and closing logic. No beauty, no consistency.<br><br>
 
 ### The tray problem
 
@@ -196,7 +196,7 @@ The tray becomes not a “quick actions panel,” but an indicator of “how muc
 
 A positive tray example is **Telegram** on Windows. By default it opens a full window on the taskbar. But a typical messenger workflow is “launch and forget,” while notifications arrive in the background. Telegram can live in the tray properly: it minimizes, keeps working, and the icon becomes the main entry point.
 
-A bad example is when an app—while minimized—still sits both on the taskbar and in the tray. Why? Because there is no clear OS‑level rule like “a background app doesn’t need taskbar space.” Developers decide every time—and decide differently.
+A bad example is when an app—while minimized—still sits both on the taskbar and in the tray. Why? Because there is no clear OS‑level rule like “a background app doesn’t need taskbar space.” Developers decide every time—and decide differently.<br><br>
 
 ### Blurred boundaries between “application” and “service”
 
@@ -207,7 +207,7 @@ Desktop OSes poorly distinguish between:
 
 Look at game launchers: Steam, Epic Games, GOG Galaxy. They start with the system, sit in the tray, download updates, send discount notifications. In essence, they’re background services with a storefront. But the system treats them like “normal apps”: they can open windows, take screen space, and stay running after you close them.
 
-The flip side is that some heavy desktop apps (for example, Adobe Creative Cloud) behave like mobile: constantly updating, living in the tray, pushing marketing notifications. This isn’t about technology—it’s about philosophy and the lack of clear system boundaries.
+The flip side is that some heavy desktop apps (for example, Adobe Creative Cloud) behave like mobile: constantly updating, living in the tray, pushing marketing notifications. This isn’t about technology—it’s about philosophy and the lack of clear system boundaries.<br><br>
 
 ### 🧾Chapter 2 recap
 
@@ -217,7 +217,7 @@ The conflict shows up as a set of symptoms: inconsistent rules for background li
 
 Based on the problems above, I’ll introduce a classification that helps us understand the needs and behavior of different types of software.
 
-Outside the scope are apps for wearables (watches/glasses). Here we consider software for smartphones, tablets, and PCs.
+Outside the scope are apps for wearables (watches/glasses). Here we consider software for smartphones, tablets, and PCs.<br><br>
 
 ### System services
 
@@ -240,7 +240,7 @@ Key criteria:
 - **notifications:** not sent directly; interaction via logs/events;
 - **autostart/services:** yes—this is their nature.
 
-In short, it’s infrastructure. Not desktop, not mobile—foundational.
+In short, it’s infrastructure. Not desktop, not mobile—foundational.<br><br>
 
 ### Primary applications
 
@@ -257,7 +257,7 @@ Key criteria:
 - **notifications:** allowed, but rare and meaningful;
 - **autostart/services:** forbidden by default (if needed at all—only via explicit user action).
 
-The point is simple: these are heavy tools and they should not turn into background parasites.
+The point is simple: these are heavy tools and they should not turn into background parasites.<br><br>
 
 ### Auxiliary applications
 
@@ -270,7 +270,7 @@ Key criteria:
 - **activity:** background; often lives in the tray; can open a window and then be minimized;
 - **lifecycle:** staying alive after closing the window is allowed;
 - **notifications:** allowed; advanced scenarios may exist;
-- **autostart/services:** allowed, but only with explicit user consent and transparent control.
+- **autostart/services:** allowed, but only with explicit user consent and transparent control.<br><br>
 
 ### Secondary applications
 
@@ -285,7 +285,7 @@ Key criteria:
 - **notifications:** optional and usually limited;
 - **autostart/services:** forbidden by default (if present at all—it’s an exception).
 
-Important principle: if the user **explicitly closes** a secondary application, it should not linger in the background as a “tail.”
+Important principle: if the user **explicitly closes** a secondary application, it should not linger in the background as a “tail.”<br><br>
 
 ### 🧾Chapter 3 recap
 
@@ -299,7 +299,7 @@ From the previous chapters, two things are clear:
 
 2) we proposed a classification: system services, primary, auxiliary, and secondary applications.
 
-Now the main question: what exactly needs to change so this works in practice, not just on paper?
+Now the main question: what exactly needs to change so this works in practice, not just on paper?<br><br>
 
 ### Explicitly declaring an app class
 
@@ -347,14 +347,14 @@ Apps without a declaration get “primary” status with strict rules: autostart
 - a legal place in the tray — a persistent icon;
 - autostart allowed, but only with a mandatory prompt on first launch;
 - notifications with advanced capabilities;
-- background allowed; services are possible, but fully controllable by the user (clear names, visibility, ability to disable). The user should see that “TelegramUpdateService” is indeed a Telegram service.
+- background allowed; services are possible, but fully controllable by the user (clear names, visibility, ability to disable). The user should see that “TelegramUpdateService” is indeed a Telegram service.<br><br>
 
 **Secondary apps:**
 
 Similar to primary, but with nuances:
 
 - no permanent tray icon, but may show a temporary background‑task indicator (and disappear when not needed);
-- may expose extended quick actions via the taskbar context menu.
+- may expose extended quick actions via the taskbar context menu.<br><br>
 
 ### Reworking the tray and the taskbar
 
@@ -364,7 +364,7 @@ This is, in essence, the answer to the argument that made GNOME try to “bury�
 
 As in Windows today, right‑clicking an icon should provide a quick‑actions menu so the user can change app state without opening a window.
 
-The taskbar, meanwhile, is the territory of primary and secondary apps. Secondary apps can get richer actions via the context menu (as Windows Explorer does).
+The taskbar, meanwhile, is the territory of primary and secondary apps. Secondary apps can get richer actions via the context menu (as Windows Explorer does).<br><br>
 
 ### Fixing the notification system
 
@@ -383,7 +383,7 @@ The OS should provide several access tiers:
     - grouping;
     - notification categories.
 
-The OS also needs a proper **Do Not Disturb** mode and **notification sounds**: apps should not play their own sound—an app sends an event, and the OS plays the sound chosen by the user (the app may provide a default).
+The OS also needs a proper **Do Not Disturb** mode and **notification sounds**: apps should not play their own sound—an app sends an event, and the OS plays the sound chosen by the user (the app may provide a default).<br><br>
 
 ### 🧾Chapter 4 recap
 
@@ -391,7 +391,7 @@ We now have the “skeleton” of a solution: app classes become not an abstract
 
 ## 🔸Chapter 5. How the OS could evolve after the foundation
 
-The changes above help us organize applications inside the OS. In this chapter we’ll look at what functionality could be built on top of that foundation so the OS feels even more predictable and comfortable for everyday computer work.
+The changes above help us organize applications inside the OS. In this chapter we’ll look at what functionality could be built on top of that foundation so the OS feels even more predictable and comfortable for everyday computer work.<br><br>
 
 ### Notification categories
 
@@ -409,7 +409,7 @@ Users should be able to:
 - assign a separate sound;
 - allow a category even during Do Not Disturb.
 
-As with mobile OSes, the system cannot “force” developers to use categories, but we can expect conscientious developers to adopt them.
+As with mobile OSes, the system cannot “force” developers to use categories, but we can expect conscientious developers to adopt them.<br><br>
 
 ### System widgets and extending the tray
 
@@ -419,7 +419,7 @@ Mobile OSes have long developed widgets, Dynamic Island, and “live” notifica
 
 If auxiliary apps often go to the background (Discord, Telegram), tray widgets help you understand what’s happening without switching back to the window: who’s speaking in a voice channel, what track is playing, how many percent have downloaded.
 
-**Notification badges** on a tray icon should also be extended so they can show not only “unread count,” but small statuses/icons (from a set or custom) to indicate modes: “silent,” “VPN connected to X,” and so on.
+**Notification badges** on a tray icon should also be extended so they can show not only “unread count,” but small statuses/icons (from a set or custom) to indicate modes: “silent,” “VPN connected to X,” and so on.<br><br>
 
 ### System modes
 
@@ -439,7 +439,7 @@ Imagine a typical workday. You turn on “Work” mode and the OS reshapes app b
 - Steam in “Work” doesn’t show sales, and in “Rest” may remind you about a sale.
 - VPN lives as a compact tray button/widget, and autostart is transparently visible in settings.
 
-The point isn’t that “features appeared.” The point is that the OS finally manages this centrally—and the user controls the background, not the other way around.
+The point isn’t that “features appeared.” The point is that the OS finally manages this centrally—and the user controls the background, not the other way around.<br><br>
 
 ### 🧾Chapter 5 recap
 
@@ -459,4 +459,4 @@ If you share these thoughts and want to try bringing them to life—let’s do i
 
 Help this text reach more people: share the essay, translate it into other languages, discuss the theses, argue with them, propose alternatives. Build prototypes, draft APIs, sketch interfaces, and experiment—even small contributions add up and move the industry.
 
-A desktop environment should adapt to people, not teach people to live by the rules of an accidentally‑evolved UX.
+A desktop environment should adapt to people, not teach people to live by the rules of an accidentally‑evolved UX.<br><br><br>
