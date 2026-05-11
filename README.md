@@ -19,7 +19,7 @@ Put simply: a program becomes an application when it’s used not only by engine
 
 “Programs” include drivers, the operating system kernel, OS components, and things launched by the user. “Applications” are the familiar tools: messengers, browsers, games, and so on.
 
-To see how the way people interact with computers has changed, I’ll break the story into stages. Quick disclaimer: I’m not a historian of software or hardware, so the split is **simplified**. The years in this chapter are a guideline, not a strict mapping to specific events.<br>
+To see how the way people interact with computers has changed, I’ll break the story into stages. Quick disclaimer: I’m not a historian of software or hardware, so the split is **simplified**. The years in this chapter are a guideline, not a strict mapping to specific events.<br><br>
 
 ### Stage 1 — “the reign of programs”「1946 - 1965」
 
