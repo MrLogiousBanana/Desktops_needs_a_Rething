@@ -1,5 +1,5 @@
 # Desktop in the Age of Background Apps: Why DE Needs a Rethink
-## 🔸Introduction
+## 🔻Introduction
 
 Modern desktop environments in “adult” operating systems (Windows, Linux, macOS) are complex applications that often trace their roots back to systems designed at the dawn of OS development. Explorer, GNOME, KDE, and macOS all originate from an era when the computer user experience was radically different from what it is today.  
 
@@ -445,7 +445,7 @@ The point isn’t that “features appeared.” The point is that the OS finally
 
 When the system has a framework and control, “tasty” add‑ons become possible—not as app‑specific hacks, but as a unified platform: notification categories, tray widgets/info panels, and work modes. These ideas don’t replace the foundation—they unlock its potential. UX stops being a collection of compromises and becomes a manageable environment. Next we just need to lock in the overall conclusion and state what exactly matters to change in our approach to DE/OS.
 
-## 🔸Conclusion
+## 🔺Conclusion
 
 In short, the problem with modern desktop environments isn’t that “everything is implemented badly,” but that the world of applications changed faster than the rules of the desktop environment did. The desktop inherited habits from the “windows and programs” era, and then collided with the philosophy of “app‑services” that live in the background and constantly demand attention. When the system doesn’t distinguish these behavior types, chaos begins: each product pulls the blanket toward itself and invents its own workarounds.
 
