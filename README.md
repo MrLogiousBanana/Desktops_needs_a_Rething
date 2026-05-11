@@ -420,11 +420,11 @@ Mobile OSes have long developed widgets, Dynamic Island, and “live” notifica
 
 If auxiliary apps often go to the background (Discord, Telegram), tray widgets help you understand what’s happening without switching back to the window: who’s speaking in a voice channel, what track is playing, how many percent have downloaded.
 
-**Notification badges** on a tray icon should also be extended so they can show not only “unread count,” but small statuses/icons (from a set or custom) to indicate modes: “silent,” “VPN connected to X,” and so on.<br><br>
+**Notification badges** on a tray icon should also be extended so they can show not only “unread count,” but small statuses/icons (from a set or custom) to indicate modes: “silent,” “VPN connected to X,” and so on.<br>
 
 <p align="center"><img src="assets/tray reimagined 2.png" width="50%" alt="Reimagined Tray"/></p>
 
-<br><br>
+<br>
 
 ### System modes
 
