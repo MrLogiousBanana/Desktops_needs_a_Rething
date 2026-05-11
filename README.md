@@ -293,7 +293,7 @@ Important principle: if the user **explicitly closes** a secondary application, 
 
 The classification turns the vague “apps behave weirdly” into concrete classes with different lifecycles: what must live only as a window, what may stay in the background, and what should be a service without UI at all. This sets the rules of the game and lets us discuss constraints without taste wars. Next comes the main question: how do we make these rules work not by “agreement,” but technically—at the OS level and through its APIs?<br><br><br><br>
 
-## 🔸Chapter 4. How the operating system should change
+<p align="center"><img src="assets/Chapter 4.png" width="100%" alt="🔸 Chapter 4" /> </p>
 
 From the previous chapters, two things are clear:
 
@@ -391,7 +391,7 @@ The OS also needs a proper **Do Not Disturb** mode and **notification sounds**: 
 
 We now have the “skeleton” of a solution: app classes become not an abstraction, but the basis for rights and constraints (tray, notifications, autostart, background) via unified system APIs. This returns control to users and predictability to developers: fewer hacks, more proper system scenarios. Next, we can talk about the “layers on top”: what new UX mechanisms become possible once the platform has this kind of framework.<br><br><br><br>
 
-## 🔸Chapter 5. How the OS could evolve after the foundation
+<p align="center"><img src="assets/Chapter 5.png" width="100%" alt="🔸 Chapter 5" /> </p>
 
 The changes above help us organize applications inside the OS. In this chapter we’ll look at what functionality could be built on top of that foundation so the OS feels even more predictable and comfortable for everyday computer work.<br><br>
 
@@ -447,7 +447,7 @@ The point isn’t that “features appeared.” The point is that the OS finally
 
 When the system has a framework and control, “tasty” add‑ons become possible—not as app‑specific hacks, but as a unified platform: notification categories, tray widgets/info panels, and work modes. These ideas don’t replace the foundation—they unlock its potential. UX stops being a collection of compromises and becomes a manageable environment. Next we just need to lock in the overall conclusion and state what exactly matters to change in our approach to DE/OS.<br><br><br><br>
 
-## 🔺Conclusion
+<p align="center"><img src="assets/Conclusion.png" width="100%" alt="🔺Conclusion" /> </p>
 
 In short, the problem with modern desktop environments isn’t that “everything is implemented badly,” but that the world of applications changed faster than the rules of the desktop environment did. The desktop inherited habits from the “windows and programs” era, and then collided with the philosophy of “app‑services” that live in the background and constantly demand attention. When the system doesn’t distinguish these behavior types, chaos begins: each product pulls the blanket toward itself and invents its own workarounds.
 
