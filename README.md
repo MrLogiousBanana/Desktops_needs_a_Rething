@@ -1,5 +1,5 @@
 # Desktop in the Age of Background Apps: Why DE Needs a Rethink
-## Introduction
+## 🔸Introduction
 
 Modern desktop environments in “adult” operating systems (Windows, Linux, macOS) are complex applications that often trace their roots back to systems designed at the dawn of OS development. Explorer, GNOME, KDE, and macOS all originate from an era when the computer user experience was radically different from what it is today.  
 
@@ -7,7 +7,7 @@ This essay looks at the problems of modern desktop environments from a usability
 
 In this text we’ll walk through the evolution from programs to applications, unpack the issues created by the rapid rise of mobile software, introduce a new classification of software by usage type, and use it to propose a solution to the problems described above. We’ll also explore how desktop environments could evolve on top of this foundation—so the slogan “a desktop environment for people, not people for the desktop environment” can become real.
 
-## Chapter 1. How programs turned into applications
+## 🔸Chapter 1. How programs turned into applications
 
 This chapter is about the history of applications. First, let’s align on terminology so we don’t get confused later.
 
@@ -154,7 +154,7 @@ OSes themselves move in this direction:
 
 We traveled from “programs as a set of commands” to applications as products and services—with UIs, habits, and an expectation of constant availability across devices. This shift made software mass‑market and convenient, but it also mixed different “cultures” of use (desktop and mobile) in one world. Next, it’s important to see how this collision shows up on the desktop today—and why familiar desktop‑environment mechanisms no longer cope.
 
-## Chapter 2. The problem
+## 🔸Chapter 2. The problem
 
 Since the 1980s, the world of software has changed dramatically. You can clearly say: desktop and mobile apps are two different worlds:
 
@@ -213,7 +213,7 @@ The flip side is that some heavy desktop apps (for example, Adobe Creative Cloud
 
 The conflict shows up as a set of symptoms: inconsistent rules for background life, fragmented UX solutions, and unclear boundaries of what counts as an “app” versus a “background agent.” As long as the system doesn’t distinguish behavior types, each product will improvise. So the next step is to give ourselves a language and a model: what classes of software exist, and what rights/expectations should each have?
 
-## Chapter 3. A new software classification
+## 🔸Chapter 3. A new software classification
 
 Based on the problems above, I’ll introduce a classification that helps us understand the needs and behavior of different types of software.
 
@@ -291,7 +291,7 @@ Important principle: if the user **explicitly closes** a secondary application, 
 
 The classification turns the vague “apps behave weirdly” into concrete classes with different lifecycles: what must live only as a window, what may stay in the background, and what should be a service without UI at all. This sets the rules of the game and lets us discuss constraints without taste wars. Next comes the main question: how do we make these rules work not by “agreement,” but technically—at the OS level and through its APIs?
 
-## Chapter 4. How the operating system should change
+## 🔸Chapter 4. How the operating system should change
 
 From the previous chapters, two things are clear:
 
@@ -389,7 +389,7 @@ The OS also needs a proper **Do Not Disturb** mode and **notification sounds**: 
 
 We now have the “skeleton” of a solution: app classes become not an abstraction, but the basis for rights and constraints (tray, notifications, autostart, background) via unified system APIs. This returns control to users and predictability to developers: fewer hacks, more proper system scenarios. Next, we can talk about the “layers on top”: what new UX mechanisms become possible once the platform has this kind of framework.
 
-## Chapter 5. How the OS could evolve after the foundation
+## 🔸Chapter 5. How the OS could evolve after the foundation
 
 The changes above help us organize applications inside the OS. In this chapter we’ll look at what functionality could be built on top of that foundation so the OS feels even more predictable and comfortable for everyday computer work.
 
