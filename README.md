@@ -422,6 +422,10 @@ If auxiliary apps often go to the background (Discord, Telegram), tray widgets h
 
 **Notification badges** on a tray icon should also be extended so they can show not only “unread count,” but small statuses/icons (from a set or custom) to indicate modes: “silent,” “VPN connected to X,” and so on.<br><br>
 
+<p align="center"><img src="assets/tray reimagined 2.png" width="50%" alt="Reimagined Tray"/></p>
+
+<br><br>
+
 ### System modes
 
 Another powerful layer is **system modes**. Yes, they require manual setup and not everyone uses them. But for those who do, they offer real value.
@@ -445,8 +449,8 @@ The point isn’t that “features appeared.” The point is that the OS finally
 <img src="assets/recap.png" height="25" alt="Recap"/>
 
 When the system has a framework and control, “tasty” add‑ons become possible—not as app‑specific hacks, but as a unified platform: notification categories, tray widgets/info panels, and work modes. These ideas don’t replace the foundation—they unlock its potential. UX stops being a collection of compromises and becomes a manageable environment. Next we just need to lock in the overall conclusion and state what exactly matters to change in our approach to DE/OS.<br>
-<p align="center"><img src="assets/Yatta.png" width="80%" alt="Recap"/></p>
-<br><br><br><br>
+<p align="center"><img src="assets/Yatta.png" width="80%" alt="Yatta Desktop"/></p>
+<br><br><br>
 
 <p align="center"><img src="assets/Conclusion.png" width="100%" alt="🔺Conclusion" /> </p>
 
