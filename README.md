@@ -44,7 +44,7 @@ Finally, high‑level languages. **Fortran** and **BASIC** made programming much
 
 **Summary:** the “reign of programs” era is characterized by an almost complete lack of UI, running “one program at a time,” and the beginning of programs being shared between people.<br><br>
 
-### Stage 2 — the transition to applications「1960 - 1985」
+<p align="center"><img src="assets/st2.png" width="100%" alt="Stage 2" /> </p>
 
 In the second stage, there are **many** programs, and alongside them **applications** begin to take shape. With BASIC, more and more people enter development: some write tools for themselves, others do it for fun. And when there are many programs, the question becomes inevitable: how do you make them usable for someone other than the author?
 
@@ -72,7 +72,7 @@ Early mass applications appear: text editors (Apple Writer), spreadsheets (VisiC
 
 **Summary:** the move from “bare programs” to applications was enabled by OS development and abstraction away from hardware. UI and mass computers turned software into a product: users began to choose what’s “convenient,” and developers began to profit from applications.<br><br>
 
-### Stage 3 — the evolution of apps: desktop and early mobile「1980 - 2006」
+<p align="center"><img src="assets/st3.png" width="100%" alt="Stage 3" /> </p>
 
 The third stage is when applications become the norm rather than the exception.
 
@@ -99,7 +99,7 @@ Mobile phones begin to get built‑in games and organizers. And with **Java ME**
 
 **Summary:** applications split into two camps — desktop (complex and powerful) and mobile (simple, efficient, designed for small screens).<br><br>
 
-### Stage 4 — the mobile app explosion「2002 - 2014」
+<p align="center"><img src="assets/st4.png" width="100%" alt="Stage 4" /> </p>
 
 The fourth stage is when mobile apps catch up to desktop—and then, in many ways, start to “pull” users toward themselves.
 
@@ -123,7 +123,7 @@ Desktop apps don’t disappear, but their role shifts toward professional tools 
 
 **Summary:** mobile apps become the primary way billions of people “use a computer.” App stores solve distribution and monetization. Desktop retains its role mostly in professional and “heavy” scenarios.<br><br>
 
-### Stage 5 — one app across all devices「2012 - present」
+<p align="center"><img src="assets/st5.png" width="100%" alt="Stage 5" /> </p>
 
 The fifth stage is the blurring of boundaries. Almost everyone has a smartphone, and many have laptops and tablets too—and the expectation is simple: **one app should live everywhere**.
 
