@@ -19,9 +19,9 @@ Put simply: a program becomes an application when it’s used not only by engine
 
 “Programs” include drivers, the operating system kernel, OS components, and things launched by the user. “Applications” are the familiar tools: messengers, browsers, games, and so on.
 
-To see how the way people interact with computers has changed, I’ll break the story into stages. Quick disclaimer: I’m not a historian of software or hardware, so the split is **simplified**. The years in this chapter are a guideline, not a strict mapping to specific events.
+To see how the way people interact with computers has changed, I’ll break the story into stages. Quick disclaimer: I’m not a historian of software or hardware, so the split is **simplified**. The years in this chapter are a guideline, not a strict mapping to specific events.<br>
 
-<br>### Stage 1 — “the reign of programs”「1946 - 1965」
+### Stage 1 — “the reign of programs”「1946 - 1965」
 
 In 1946, **ENIAC**—one of the first programmable computers—was demonstrated. It’s a convenient starting point for an era where the main “control organ” was the program itself (more precisely, sets of instructions for a computer).
 
@@ -41,9 +41,9 @@ Finally, high‑level languages. **Fortran** and **BASIC** made programming much
 - **1957 ▸** the first popular high‑level language — **Fortran**;
 - **1964 ▸** the mass‑adopted language — **BASIC**.
 
-**Summary:** the “reign of programs” era is characterized by an almost complete lack of UI, running “one program at a time,” and the beginning of programs being shared between people.
+**Summary:** the “reign of programs” era is characterized by an almost complete lack of UI, running “one program at a time,” and the beginning of programs being shared between people.<br>
 
-<br>### Stage 2 — the transition to applications「1960 - 1985」
+### Stage 2 — the transition to applications「1960 - 1985」
 
 In the second stage, there are **many** programs, and alongside them **applications** begin to take shape. With BASIC, more and more people enter development: some write tools for themselves, others do it for fun. And when there are many programs, the question becomes inevitable: how do you make them usable for someone other than the author?
 
@@ -69,7 +69,7 @@ Early mass applications appear: text editors (Apple Writer), spreadsheets (VisiC
 - **1973 ▸** **XEROX Alto** — an early mature GUI and principles of future OSes;
 - **1977 ▸** **Apple II** — a mass‑market PC.
 
-**Summary:** the move from “bare programs” to applications was enabled by OS development and abstraction away from hardware. UI and mass computers turned software into a product: users began to choose what’s “convenient,” and developers began to profit from applications.
+**Summary:** the move from “bare programs” to applications was enabled by OS development and abstraction away from hardware. UI and mass computers turned software into a product: users began to choose what’s “convenient,” and developers began to profit from applications.<br>
 
 ### Stage 3 — the evolution of apps: desktop and early mobile「1980 - 2006」
 
@@ -96,7 +96,7 @@ Mobile phones begin to get built‑in games and organizers. And with **Java ME**
 - **1996 ▸** **Palm Pilot** — a mass‑market PDA;
 - **2000 ▸** **Java ME** — mobile apps on feature phones.
 
-**Summary:** applications split into two camps — desktop (complex and powerful) and mobile (simple, efficient, designed for small screens).
+**Summary:** applications split into two camps — desktop (complex and powerful) and mobile (simple, efficient, designed for small screens).<br>
 
 ### Stage 4 — the mobile app explosion「2002 - 2014」
 
@@ -120,7 +120,7 @@ Desktop apps don’t disappear, but their role shifts toward professional tools 
 - **2010 ▸** **iPad** — tablets and their apps;
 - **2012 ▸** Android Market becomes **Google Play**.
 
-**Summary:** mobile apps become the primary way billions of people “use a computer.” App stores solve distribution and monetization. Desktop retains its role mostly in professional and “heavy” scenarios.
+**Summary:** mobile apps become the primary way billions of people “use a computer.” App stores solve distribution and monetization. Desktop retains its role mostly in professional and “heavy” scenarios.<br>
 
 ### Stage 5 — one app across all devices「2012 - present」
 
