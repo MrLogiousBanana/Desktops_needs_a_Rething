@@ -445,7 +445,7 @@ The point isn’t that “features appeared.” The point is that the OS finally
 
 When the system has a framework and control, “tasty” add‑ons become possible—not as app‑specific hacks, but as a unified platform: notification categories, tray widgets/info panels, and work modes. These ideas don’t replace the foundation—they unlock its potential. UX stops being a collection of compromises and becomes a manageable environment. Next we just need to lock in the overall conclusion and state what exactly matters to change in our approach to DE/OS.
 
-## Conclusion
+## 🔸Conclusion
 
 In short, the problem with modern desktop environments isn’t that “everything is implemented badly,” but that the world of applications changed faster than the rules of the desktop environment did. The desktop inherited habits from the “windows and programs” era, and then collided with the philosophy of “app‑services” that live in the background and constantly demand attention. When the system doesn’t distinguish these behavior types, chaos begins: each product pulls the blanket toward itself and invents its own workarounds.
 
@@ -453,7 +453,7 @@ This essay takes that thought to a practical conclusion: to restore order, we ne
 
 Once the system has control and unified rules, it also gains room to evolve—smarter notifications, a more meaningful tray, system modes, and workflows that help rather than hinder. And that’s the moment when the desktop environment stops being a set of compromises and becomes what it should be: a tool built for people.
 
-## A note to developers
+## ⚠️ A note to developers
 
 If you share these thoughts and want to try bringing them to life—let’s do it together.
 
