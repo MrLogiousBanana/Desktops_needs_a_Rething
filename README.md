@@ -1,6 +1,6 @@
 <h1 align="center">
 🖥️ Desktop in the Age of Background Apps: <br>Why DE Needs a Rethink
-</h1>
+</h1><br><br>
 
 ## 🔻Introduction
 
