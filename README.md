@@ -9,7 +9,7 @@ This essay looks at the problems of modern desktop environments from a usability
 
 In this text we’ll walk through the evolution from programs to applications, unpack the issues created by the rapid rise of mobile software, introduce a new classification of software by usage type, and use it to propose a solution to the problems described above. We’ll also explore how desktop environments could evolve on top of this foundation — so the slogan “a desktop environment for people, not people for the desktop environment” can become real.<br><br><br><br>
 
-<p align="center"><img src="assets/Chapter 1.png" width="100%" alt="1 Глава" /> </p>
+<p align="center"><img src="assets/Chapter 1.png" width="100%" alt="🔸 Chapter 1" /> </p>
 
 This chapter is about the history of applications. First, let’s align on terminology so we don’t get confused later.
 
@@ -156,7 +156,7 @@ OSes themselves move in this direction:
 
 We traveled from “programs as a set of commands” to applications as products and services—with UIs, habits, and an expectation of constant availability across devices. This shift made software mass‑market and convenient, but it also mixed different “cultures” of use (desktop and mobile) in one world. Next, it’s important to see how this collision shows up on the desktop today—and why familiar desktop‑environment mechanisms no longer cope.<br><br><br><br>
 
-<p align="center"><img src="assets/Chapter 2.png" width="100%" alt="2 Глава" /> </p>
+<p align="center"><img src="assets/Chapter 2.png" width="100%" alt="🔸 Chapter 2" /> </p>
 
 Since the 1980s, the world of software has changed dramatically. You can clearly say: desktop and mobile apps are two different worlds:
 
@@ -215,7 +215,7 @@ The flip side is that some heavy desktop apps (for example, Adobe Creative Cloud
 
 The conflict shows up as a set of symptoms: inconsistent rules for background life, fragmented UX solutions, and unclear boundaries of what counts as an “app” versus a “background agent.” As long as the system doesn’t distinguish behavior types, each product will improvise. So the next step is to give ourselves a language and a model: what classes of software exist, and what rights/expectations should each have?<br><br><br><br>
 
-## 🔸Chapter 3. A new software classification
+<p align="center"><img src="assets/Chapter 3.png" width="100%" alt="🔸 Chapter 3" /> </p>
 
 Based on the problems above, I’ll introduce a classification that helps us understand the needs and behavior of different types of software.
 
