@@ -1,6 +1,5 @@
 <p align="center"><img src="assets/ENG header.png" width="100%" alt="На русском" /> </p>
-<p align="center"> <a href="https://t.me/rawr_time"> <img src="assets/RUS.png" height="25" alt="На русском" /></a> </p><br>
-
+<p align="center"> <a href="https://t.me/rawr_time"> <img src="assets/RUS.png" height="25" alt="На русском" /></a> </p>
 
 <p align="center"><img src="assets/introduction.png" width="100%" alt="Introduction" /> </p>
 
