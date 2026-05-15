@@ -1,13 +1,13 @@
 <p align="center"><img src="assets/RUS header.png" width="100%" alt="На русском" /> </p>
-<p align="center"> <a href="https://github.com/MrLogiousBanana/Desktops_needs_a_Rething/blob/main/README_RUS.md"> <img src="assets/RUS.png" height="25" alt="На русском" /></a> </p>
+<p align="center"> <a href="https://github.com/MrLogiousBanana/Desktops_needs_a_Rething/blob/main/README_RUS.md"> <img src="assets/ENG.png" height="25" alt="На русском" /></a> </p>
 
 <p align="center"><img src="assets/introduction.png" width="100%" alt="Introduction" /> </p>
 
-Modern desktop environments in “adult” operating systems (Windows, Linux, macOS) are complex applications that often trace their roots back to systems designed at the dawn of OS development. Explorer, GNOME, KDE, and macOS all originate from an era when the computer user experience was radically different from what it is today.  
+Современные окружения рабочего стола “старших” операционных систем (Windows, Linux, MacOS) - комплексные приложения, которые, зачастую. берут корни от систем, которые выходили ещё на заре проектирования ОС. Explorer, Gnome, KDE, MacOS берут свои истоки ещё с тех времён, когда пользовательский опыт при использовании компьютеров был кардинально иным, нежели сейчас.
 
-This essay looks at the problems of modern desktop environments from a usability perspective and proposes a way to address them, placing the responsibility on desktop-environment makers — because today they are, in many ways, the ones implementing and shaping this kind of functionality.  
+Данное эссе рассматривает проблемы современных DE с точки зрения удобства использования и предлагает вариант решения этих проблем, возлагая их на создателей окружений рабочего стола, так как сейчас, во многом, именно они и занимаются рассматриваемым функционалом.
 
-In this text we’ll walk through the evolution from programs to applications, unpack the issues created by the rapid rise of mobile software, introduce a new classification of software by usage type, and use it to propose a solution to the problems described above. We’ll also explore how desktop environments could evolve on top of this foundation — so the slogan “a desktop environment for people, not people for the desktop environment” can become real.<br><br><br><br>
+В рамках этого текста мы посмотрим историю развития от программ до приложений, разберём проблемы, источниками которых стало резкое развитие мобильных программных продуктов, введём новую классификацию ПО по типам использования, которая поможет нам, в свою очередь, предложить решение для представленных выше проблем. Помимо этого, в эссе рассмотрены варианты последующего развития рабочих окружений на основе нового функционала, чтобы наиболее точно воплотить предложение “рабочее окружение для человека, а не человек для рабочего окружения”<br><br><br><br>
 
 <p align="center"><img src="assets/Chapter 1.png" width="100%" alt="🔸 Chapter 1" /> </p>
 
